@@ -1,0 +1,1 @@
+:root{--primary-color: #005faf;--serif-font: var(--sans-serif-font)}[data-theme=dark]{--primary-color: #005faf}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){--primary-color: #005faf}}
