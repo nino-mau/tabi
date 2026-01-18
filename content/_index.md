@@ -2,12 +2,12 @@
 title = "Google Street View Widget"
 
 [extra]
-header = { title = "Google Street View Widget", subtitle = "Built for ArcGIS Experience Builder", img = "svg/icon.svg", img_alt = "Widget Icon" }
+header = { title = "Street View Widget", subtitle = "Built for ArcGIS Experience Builder", img = "svg/icon.svg", img_alt = "Widget Icon", github_repo = "smartorigin/streetview-exb-widget" }
 +++
 
-{{ dimmable_image(src="Demo1.gif", alt="Photograph of a canal in Amsterdam") }}
-
 This widget brings Google Street View into your ArcGIS Experience Builder applications. Click anywhere on the map to see street-level imagery, or open Street View directly from feature actions in popup.
+
+{{ dimmable_image(src="Demo1.gif", alt="Photograph of a canal in Amsterdam") }}
 
 ---
 

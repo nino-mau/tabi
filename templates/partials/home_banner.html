@@ -2,6 +2,19 @@
 <div id="banner-container-home">
     <div id="home-banner-text">
         <h1 id="home-banner-header">{{ header.title }}</h1>
+        {%- if header.github_repo -%}
+        <div id="github-badges">
+            <a href="https://github.com/{{ header.github_repo }}/graphs/contributors" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/github/contributors/{{ header.github_repo }}?style=flat-square&color=blue" alt="GitHub contributors" />
+            </a>
+            <a href="https://github.com/{{ header.github_repo }}/issues" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/github/issues/{{ header.github_repo }}?style=flat-square" alt="GitHub issues" />
+            </a>
+            <a href="https://github.com/{{ header.github_repo }}/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/github/license/{{ header.github_repo }}?style=flat-square" alt="License" />
+            </a>
+        </div>
+        {%- endif -%}
         {%- if header.subtitle -%}
         <section id="banner-home-subtitle">
             {{ header.subtitle }}
