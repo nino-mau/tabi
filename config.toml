@@ -31,6 +31,7 @@ index_format = "elasticlunr_json"
 [markdown]
 bottom_footnotes = true
 smart_punctuation = true
+insert_anchor_links = "left"
 
 [markdown.highlighting]
 theme = "catppuccin-frappe"
@@ -49,7 +50,7 @@ style = "class"
 
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
-override_serif_with_sans = false
+override_serif_with_sans = true
 
 # Enable JavaScript theme toggler to allow users to switch between dark/light mode.
 # If disabled, your site will use the theme specified in the `default_theme` variable.
@@ -66,7 +67,7 @@ default_theme = ""
 # contrast (in light theme) for readability and might not be suitable for all users.
 # Furthermore, low contrasting elements will affect your Google Lighthouse rating.
 # All other skins have optimal contrast.
-skin = "blue"
+skin = "main"
 
 # Set browser theme colour. Can be a single colour or [light, dark].
 # Note: Bright colors may be ignored in dark mode.
